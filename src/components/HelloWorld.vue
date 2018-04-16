@@ -90,9 +90,7 @@ export default {
     throw new Error('AAH!');
   },
   data() {
-    return {
-      msg: 'Welcome to Your Vue.js App',
-    };
+    return new Error('YOU GOT A PROBLEM!!')
   },
 };
 </script>
