@@ -93,8 +93,8 @@ export default {
     return new Error('YOU GOT A PROBLEM!!');
   },
   mounted() {
-    throw new Error('All kinds of problems!!')
-  }
+    throw new Error('All kinds of problems!!');
+  },
 };
 </script>
 
