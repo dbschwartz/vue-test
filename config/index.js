@@ -3,10 +3,6 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
-const git = require('git-rev-sync');
-
-
-process.env['RELEASE'] = git.long();
 
 module.exports = {
   dev: {

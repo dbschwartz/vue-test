@@ -87,7 +87,6 @@
 export default {
   name: 'HelloWorld',
   beforeMount() {
-    console.log('test');
     throw new Error('AAH!');
   },
   data() {

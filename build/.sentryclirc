@@ -4,3 +4,5 @@ org = david-schwartz
 project = vue
 [auth]
 token = 32ff3adccc3a428da3e15cc08ba417d6ae6a321a4f9b4af398c6c63d2ad2e104
+[log]
+level = info
