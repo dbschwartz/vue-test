@@ -119,7 +119,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       }
     ]),
     new SentryPlugin({
-      release: 'testconstant2',
+      release: 'testing123',
        include: ['./dist', './src'],
        ignore: ['node_modules','webpack.config.js'],
      })

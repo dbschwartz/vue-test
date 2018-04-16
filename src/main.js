@@ -10,7 +10,7 @@ import router from './router';
 
 Raven
   .config('https://8f87358ad93d46b08bb35de8657208c6@sentry.io/1189482', {
-    release: 'constant',
+    release: 'testing123',
   })
   .addPlugin(RavenVue, Vue)
   .install();
