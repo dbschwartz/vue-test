@@ -6,9 +6,11 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 
+const git = require('git-rev-sync');
+
 Raven
   .config('https://8f87358ad93d46b08bb35de8657208c6@sentry.io/1189482', {
-    release: process.env.RELEASE
+    release: git.long(),
   })
   .addPlugin(RavenVue, Vue)
   .install();
