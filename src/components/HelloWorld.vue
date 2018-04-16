@@ -90,8 +90,11 @@ export default {
     throw new Error('AAH!');
   },
   data() {
-    return new Error('YOU GOT A PROBLEM!!')
+    return new Error('YOU GOT A PROBLEM!!');
   },
+  mounted() {
+    throw new Error('All kinds of problems!!')
+  }
 };
 </script>
 
